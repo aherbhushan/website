@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+
+*{
+  background: black;
+}
+
+.clear{
+  /* color: black; */
+  text-align: center;
+  text-decoration: #fff;
+}
+
+div.wrapper.row1 #hgroup{
+  color: #fff;
+}
+
+.body .div{
+  background-color: black;
+  padding: 15px;
+  margin: 15px; 
+}
+
+.clear div{
+  background: black;
+}
+
+div.wrapper.row1 nav{
+  display: flex;
+  /* padding: 40px 90px; */
+  background-color: black;
+  background: #1b1b1b;
+  font-family: 'Lilita One', cursive;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.wrapper.row1 nav ul{
+  margin-left: 190px;
+  display: inline;
+  font-family: 'Lilita One', cursive;
+  position: relative;
+}
+
+div.wrapper.row1 nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px ;
+  font-family: 'Lilita One', cursive;
+  justify-content: space-around;
+}
+
+div.wrapper.row1 nav ul a{
+  color: #fff;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 8px 15px;
+  font-size: 25px;
+  font-family: 'Lilita One', cursive;
+  transition: all 0.3s ease 0s;
+  font-weight: bold;
+}
+
+div.wrapper.row1 nav ul a:hover{
+  color: cyan;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #33ffff,
+              0 0 5px #66ffff;
+}
+
+div.wrapper.row2 section{
+  color: #fff;
+}
+
+div.wrapper.row1 h2{
+  color: #fff;
+}
+
+div.wrapper.row2 {
+  background-color: black; 
+}
+
+div.wrapper.row2 figcaption{
+  width: 80%;
+  border: 1px solid #eee;
+  box-shadow: 10px 12px 15px #ccc;
+  padding: 15px;
+  top: 20px;
+  position: relative;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+div.wrapper.row2 .two_quarter{
+  width: 80%;
+  border: 1px solid #eee;
+  box-shadow: 0 12px 15px #ccc;
+  padding: 15px;
+  top: 50px;
+  position: relative;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+div.last.clear section {
+  width: 80%;
+  border: 1px solid #eee;
+  box-shadow: 0 12px 15px #ccc;
+  padding: 15px;
+  top: 50px;
+  position: relative;
+  margin: 10px auto;
+  box-sizing: border-box;
+}
+
+div.wrapper.row1 div section{
+  top: 60px;
+}
+
+/* div.wrapper.row3 {
+  width: 80%;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 15px;
+  top: 30px;
+  position: relative;
+  margin: 10px auto;
+  box-sizing: border-box;
+} */
+
+div.wrapper.row2 a{
+  font-size: 20px;
+  color: #fff;
+  font-family: 'Lilita One', cursive;
+}
+
+div.wrapper.row2 a:before, a:after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    transition: all 0.3s ease;
+  }
+div.wrapper.row2 a:before{
+    top: -2.5%;
+    left: -1%;
+    border-top: 2px solid white;
+    border-left: 2px solid white;	
+  }
+div.wrapper.row2 a:after{
+    bottom: -2.5%;
+    right: -1%;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+  }
+div.wrapper.row2  a:hover:before, a:hover:after{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+  }
+
+div.wrapper.row3 {
+  background-color: #fff;
+  padding-top: 20px;
+} 
+
+div.wrapper.row3 a{
+  background-color: #fff;
+  columns: #111111; ;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+div.wrapper.row3 p{
+  background-color: #fff;
+  padding-top: 20px;
+  font-size: 20px;
+} 
+
+div.wrapper.row1 form #inp1{
+  position: absolute;
+  transform: translate(-65%,-15%);
+  background: #2f3640;
+  height: 20px;
+  border-radius: 40px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  float: left;
+}
+
+div.wrapper.row1 form{
+  background: black;
+  color: #fff;
+}
+
+div.wrapper.row2 figure #img1{
+    width: auto;
+    height: auto;
+}
+
+div.wrapper.row1 h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  background: black;
+  font-style: bold;
+  font-size: 35px;
+  /* width: 80%;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 15px;
+  top: 8px;
+  position: relative;
+  margin: 10px auto;
+  box-sizing: border-box; */
+}
+
+div.wrapper.row1 h1 a{
+  color: black;
+  background: #fff;
+  font-family: 'Lilita One', cursive;
+}
+
+div.wrapper.row1 form #sf_submit{
+  transform: translate(90%,-6%);
+  background: orange;
+  height: 20px;
+  font-size: 18px;
+  border-radius: 40px;
+  padding: 10px 20px 25px;
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  div.wrapper.row1 nav ul {
+    margin-right: 0px;
+    align-items: center;
+  }
+  div.wrapper.row1 nav ul li a{
+    display: block;
+    width: 100%;
+    align-content: center;
+    float: none;
+    margin-left: 0px;
+  }
+  div.wrapper.row1 nav ul a:hover{
+    border-radius: 1px;
+    box-shadow: none;
+  }
+}
+
+@media all and (max-width: 998px) {
+  div.wrapper.row1 nav ul {
+    margin-left: 0px;
+    float: left;
+  }
+}
+
+@media all and (max-width: 1038) {
+  div.wrapper.row1 nav ul {
+    margin-left: 0px;
+    float: left;
+  }
+}
+
+
+
+
+
+
+
